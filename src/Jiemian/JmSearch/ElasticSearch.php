@@ -11,11 +11,16 @@ use Gregwar\Captcha\CaptchaBuilder;
 
 class ElasticSearch
 {
-    public function match()
+    public function captcha()
     {
         header('Content-type: image/jpeg');
         $builder = new CaptchaBuilder;
         $builder->build();
         $builder->output();
+    }
+
+    public function match()
+    {
+        echo "match query";
     }
 }
