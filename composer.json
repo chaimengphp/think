@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "stomp-php/stomp-php": "4.4.3"
+    },
     "autoload":{
         "psr-4":{
             "Jiemian\\":"src/Jiemian"
