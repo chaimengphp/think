@@ -7,11 +7,14 @@
  */
 
 namespace Jiemian\JmSearch;
+use Gregwar\Captcha\CaptchaBuilder;
 
 class ElasticSearch
 {
     public function match()
     {
-        echo "es match query";
+        header('Content-type: image/jpeg');
+        $builder = new CaptchaBuilder;
+        $builder->output();
     }
 }
