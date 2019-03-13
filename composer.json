@@ -1,0 +1,14 @@
+{
+    "name": "chaimengphp/think",
+    "description": "this is chaimeng custom thinkphp",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "柴萌",
+            "email": "chaimengmeng@jiemian.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
