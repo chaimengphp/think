@@ -21,6 +21,6 @@ class ElasticSearch
 
     public function match()
     {
-        echo "match query";
+        echo "match query!";
     }
 }
