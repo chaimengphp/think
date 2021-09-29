@@ -1,0 +1,19 @@
+{
+    "name": "chaimeng/think",
+    "type": "library",
+    "require": {
+        "php": ">=5.3"
+    },
+    "authors": [
+        {
+            "name": "柴萌",
+            "email": "chaimengmeng@jiemian.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload":{
+        "psr-4":{
+            "chaimeng\\think\\":"src/lib"
+        }
+    }
+}

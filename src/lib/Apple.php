@@ -1,8 +1,8 @@
 <?php
 
-namespace think;
+namespace chaimeng\think;
 
-class apple {
+class Apple {
 
     public $name;
     public $color;
